@@ -1,0 +1,95 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Form styles */
+#expense-form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+#expense-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#expense-form input[type="number"],
+#expense-form input[type="text"],
+#expense-form input[type="date"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+#expense-form button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+#expense-form button:hover {
+    background-color: #0056b3;
+}
+
+/* Table styles */
+#expenses-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#expenses-table th,
+#expenses-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+#expenses-table th {
+    background-color: #f2f2f2;
+}
+
+#expenses-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+#expenses-table tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+#expenses-table td:last-child {
+    text-align: center;
+}
+
+.button-group button {
+    margin-right: 5px;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.edit-btn {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.edit-btn:hover {
+    background-color: #0056b3;
+}
+
+.delete-btn {
+    background-color: #c82333;
+    color: #f2e9e9;
+}
+
